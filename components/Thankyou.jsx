@@ -23,17 +23,17 @@ function Thankyou({userResponses, setUserResponses}) {
         <p>Seus dados foram recebidos com sucesso!</p>
 
         <div className="info">
-            <h2>{userResponses.name}, {userResponses.age} anos, gênero {userResponses.gender}</h2>
-            <h2>E-mail: {userResponses.email}</h2>
-            {userResponses.cpf ? (<h2>CPF: {userResponses.cpf}</h2>) : null}
+            <h2>{userResponses?.name}, {userResponses?.age} anos, gênero {userResponses?.gender}</h2>
+            <h2>E-mail: {userResponses?.email}</h2>
+            {userResponses?.cpf ? (<h2>CPF: {userResponses?.cpf}</h2>) : null}
         </div>
 
         <div className="movies-info">
             <h2>Meus gêneros de filmes favoritos:</h2>
-            <h3>1º {userResponses.movie1}</h3>
-            <h3>2º {userResponses.movie2}</h3>
-            <h3>3º {userResponses.movie3}</h3>
-            <h3>Eu prefiro assistir {userResponses.movie4}!</h3>
+            <h3>1º {userResponses?.movie1}</h3>
+            <h3>2º {userResponses?.movie2}</h3>
+            <h3>3º {userResponses?.movie3}</h3>
+            <h3>Eu prefiro assistir {userResponses?.movie4}!</h3>
         </div>
 
         <button onClick={handleReset} className="answer-again">Responder novamente</button>

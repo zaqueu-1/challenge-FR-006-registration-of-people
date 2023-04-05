@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Form from './components/Form'
+import Form from '../components/Form'
 import Image from 'next/image'
 
 export default function Home() {
