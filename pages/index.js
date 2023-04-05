@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Image  src='/../public/images/logo.png' width='200' height='200' className='logo' />
+        <Image  src='/images/logo.png' width='200' height='200' className='logo' />
         <Form />
       </main>
 
